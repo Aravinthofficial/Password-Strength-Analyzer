@@ -25,4 +25,4 @@ Open index.html in a web browser.
 
 ## Author
 
-Your Name
+R.Aravinth
