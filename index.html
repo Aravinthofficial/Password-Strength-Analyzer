@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Password Strength Analyzer</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Password Strength Analyzer</h1>
+
+      <p class="description">Check how strong your password is</p>
+
+      <div class="input-section">
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter your password"
+        />
+
+        <button onclick="togglePassword()">Show</button>
+      </div>
+
+      <button class="analyze-btn" onclick="analyzePassword()">
+        Analyze Password
+      </button>
+
+      <div id="result"></div>
+
+      <div id="checks"></div>
+
+      <div id="suggestion"></div>
+
+      <button class="generate-btn" onclick="generatePassword()">
+        Generate Strong Password
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
